@@ -1,11 +1,14 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="index" %>
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
 	<title>CHUBB</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<script src="js/bootstrap.min.js"></script>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="Content/bootstrap.min.css" />
+	<script src="Scripts/bootstrap.min.js"></script>
 
 	<style>
 		/* Remove the navbar's default margin-bottom and rounded borders */
@@ -74,7 +77,7 @@
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#">User Guild</a></li>
 					<li><a href="#">Help</a></li>
-					<li><a href="./index.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+					<li><a href="./index.aspx"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
 				</ul>
 			</div>
 		</div>
@@ -84,7 +87,7 @@
 <div class="container-fluid text-center">
 	<div class="row content">
 		<div class="col-sm-12 text-left">
-			<form class="form-horizontal" method="post" action="memeber.html">
+			<form class="form-horizontal" method="post" action="view/member.aspx">
 				<br/>
 				<br/>
 				<div class="form-group">

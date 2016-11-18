@@ -1,11 +1,14 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="member.aspx.cs" Inherits="view_member" %>
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
     <title>CHUBB</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/bootstrap.min.js"></script>
+    <meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="../Content/bootstrap.min.css" />
+	<script src="../Scripts/bootstrap.min.js"></script>
     <style>
         /* Remove the navbar's default margin-bottom and rounded borders */
         .navbar {
@@ -68,14 +71,14 @@
         <div class="collapse navbar-collapse">
             <div class="row">
                 <ul class="nav navbar-nav">
-                    <li><img src="img/chubb-logo.svg" width="200px" height="50px"/></li>
+                    <li><img src="../img/chubb-logo.svg" width="200px" height="50px"/></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#">Welcome User Name</a></li>
                     <li><a href="#">User Guild</a></li>
                     <li><a href="#">Help</a></li>
                     <li><a href="#">Password Management</a></li>
-                    <li><a href="./index.html"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+                    <li><a href="../index.aspx"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
                 </ul>
             </div>
             <div class="row">
@@ -126,4 +129,5 @@
 
 </body>
 </html>
+
 
