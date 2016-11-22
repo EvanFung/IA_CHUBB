@@ -72,7 +72,7 @@
 		<div class="collapse navbar-collapse">
 			<div class="row">
 				<ul class="nav navbar-nav">
-					<li><img src="img/chubb-logo.svg" width="200px" height="50px"/></li>
+					<li><img src="img/chubb-logo.svg" width="200" height="50"/></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#">User Guild</a></li>

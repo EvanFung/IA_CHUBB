@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CHUBB</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        /* Remove the navbar's default margin-bottom and rounded borders */
+        .navbar {
+            height: 100px;
+            margin-bottom: 0;
+            border-radius: 0;
+        }
+
+        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+        .row.content {height: 450px}
+
+        /* Set gray background color and 100% height */
+        .sidenav {
+            padding-top: 20px;
+            background-color: lightgray;
+            height: 100%;
+        }
+
+        /* Set black background color, white text and some padding */
+        footer {
+            height: 250px;
+            background-color: #555;
+            color: grey;
+            padding: 40px;
+            box-sizing: border-box;
+            bottom: 0;
+            width: 100%;
+        }
+        footer hr {
+            display: block;
+            height: 1px;
+            border: 0;
+            border-top: 1px solid #000;
+            margin-left: 15px;
+            padding: 0;
+        }
+        #footerNav a, a:hover, a:visited, a:link, li, li a{
+            float: left;
+            display: block;
+            color: grey;
+            padding-left: 15px;
+        }
+        #footerH1{
+            color: white;
+            font-size: 20px;
+            text-align: left;
+            margin-left: 15px;
+        }
+        /* On small screens, set height to 'auto' for sidenav and grid */
+        @media screen and (max-width: 767px) {
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+            .row.content {height:auto;}
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse">
+            <div class="row">
+                <ul class="nav navbar-nav">
+                    <li><img src="img/chubb-logo.svg" width="200px" height="50px"/></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Welcome Peter Walker</a></li>
+                    <li><a href="#">User Guild</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="pwd.html">Password Management</a></li>
+                    <li><a href="./index.html"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="#"></a></li>
+                    <li><a href="retrieval.html">NB</a></li>
+                    <li><a href="retrieval.html">POS</a></li>
+                    <li><a href="retrieval.html">VIP</a></li>
+                    <li><a href="inquiry.html">Request Ticket</a></li>
+                    <li><a href="report.html">Report</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<div class="container-fluid">
+    <div class="row-fluid" style="margin-top: 30px">
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">Inquiry Details Summary</div>
+                <div class="panel-body">
+                    <form class="form-control-static">
+                        <table class="table table-hover">
+                            <thead>
+                            <tr>
+                                <th>IRN</th>
+                                <th>Create Time</th>
+                                <th>Agent Name</th>
+                                <th>Agent Code</th>
+                                <th>Channel</th>
+                                <th>Service Type</th>
+                                <th>Message Sent Date & Time</th>
+                                <th>Status Change Date & Time</th>
+                                <th>Status</th>
+                                <th>User ID</th>
+                                <th>Agent Waiting Time</th>
+                                <th>Agent Acknowledgment Time</th>
+                                <th>Total Time</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>160925001N</td>
+                                <td>25Nov16 12:12</td>
+                                <td>John</td>
+                                <td>A0121</td>
+                                <td>Phone</td>
+                                <td>POS</td>
+                                <td>25Nov16 12:13</td>
+                                <td>25Nov16 12:13</td>
+                                <td>Completed</td>
+                                <td>GA1</td>
+                                <td>10 Mins</td>
+                                <td>5 Mins</td>
+                                <td>25 Mins</td>
+                            </tr>
+                            <tr>
+                                <td>160925001N</td>
+                                <td>25Nov16 12:12</td>
+                                <td>John</td>
+                                <td>A0121</td>
+                                <td>Phone</td>
+                                <td>POS</td>
+                                <td>25Nov16 12:13</td>
+                                <td>25Nov16 12:13</td>
+                                <td>Completed</td>
+                                <td>GA1</td>
+                                <td>10 Mins</td>
+                                <td>5 Mins</td>
+                                <td>25 Mins</td>
+                            </tr>
+                            <tr>
+                                <td>160925001N</td>
+                                <td>25Nov16 12:12</td>
+                                <td>John</td>
+                                <td>A0121</td>
+                                <td>Phone</td>
+                                <td>POS</td>
+                                <td>25Nov16 12:13</td>
+                                <td>25Nov16 12:13</td>
+                                <td>Completed</td>
+                                <td>GA1</td>
+                                <td>10 Mins</td>
+                                <td>5 Mins</td>
+                                <td>25 Mins</td>
+                            </tr>
+                            <tr>
+                                <td>160925001N</td>
+                                <td>25Nov16 12:12</td>
+                                <td>John</td>
+                                <td>A0121</td>
+                                <td>Phone</td>
+                                <td>POS</td>
+                                <td>25Nov16 12:13</td>
+                                <td>25Nov16 12:13</td>
+                                <td>Completed</td>
+                                <td>GA1</td>
+                                <td>10 Mins</td>
+                                <td>5 Mins</td>
+                                <td>25 Mins</td>
+                            </tr>
+                            <tr>
+                                <td>160925001N</td>
+                                <td>25Nov16 12:12</td>
+                                <td>John</td>
+                                <td>A0121</td>
+                                <td>Phone</td>
+                                <td>POS</td>
+                                <td>25Nov16 12:13</td>
+                                <td>25Nov16 12:13</td>
+                                <td>Completed</td>
+                                <td>GA1</td>
+                                <td>10 Mins</td>
+                                <td>5 Mins</td>
+                                <td>25 Mins</td>
+                            </tr>
+                            <tr>
+                                <td>160925001N</td>
+                                <td>25Nov16 12:12</td>
+                                <td>John</td>
+                                <td>A0121</td>
+                                <td>Phone</td>
+                                <td>POS</td>
+                                <td>25Nov16 12:13</td>
+                                <td>25Nov16 12:13</td>
+                                <td>Completed</td>
+                                <td>GA1</td>
+                                <td>10 Mins</td>
+                                <td>5 Mins</td>
+                                <td>25 Mins</td>
+                            </tr>
+                            <tr>
+                                <th colspan="11"></th>
+                                <th>Total Count</th>
+                                <th>6</th>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <div class="form-group">
+                            <div class="col-sm-8"></div>
+                            <div class="control-label col-sm-2" >
+                                <button type="submit" class="btn btn-success col-sm-12">Export to PDF</button>
+                            </div>
+                            <div class="control-label col-sm-2">
+                                <button type="reset" class="btn btn-success col-sm-12">Export to Excel</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">Inquiry Statistic Summary</div>
+                <div class="panel-body">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="container-fluid text-center">
+    <div class="row">
+        <div class="col-xs-2"><p id="footerH1">Chubb. Insured.</p></div>
+        <div class="col-xs-10"></div>
+    </div>
+    <div class="row">
+        <div class="col-xs-9">
+            <a href="#">&copy;2016 Chubb - All rights reserved.</a>
+            <ul id="footerNav">
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Licensing Information</a></li>
+                <li><a href="#">Privacy Statement</a></li>
+            </ul>
+        </div>
+        <div class="col-xs-3"></div>
+    </div>
+    <hr>
+    <p>text abc babalala</p>
+</footer>
+
+</body>
+</html>
+

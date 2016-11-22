@@ -30,6 +30,10 @@
             background-color: #555;
             color: grey;
             padding: 40px;
+            box-sizing: border-box;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
         }
         footer hr {
             display: block;
@@ -92,10 +96,52 @@
     </div>
 </nav>
 
-<div class="container-fluid text-center">
-    <div class="row content">
-        <div class="col-sm-12 text-left">
-
+<div class="container-fluid">
+    <div class="row-fluid" style="margin-top: 20px">
+        <div class="col-xs-3">
+        </div>
+        <div class="col-xs-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">Password Management</div>
+                <div class="panel-body">
+                    <form class="form-horizontal" method="post" action="#">
+                        <br/>
+                        <br/>
+                        <div class="form-group">
+                            <label class="control-label col-sm-4" for="opw">Your Password:</label>
+                            <div class="col-sm-4">
+                                <input type="password" class="form-control" id="opw" placeholder="Enter Password">
+                            </div>
+                            <div class="col-sm-4"></div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-4" for="pwd">New Password:</label>
+                            <div class="col-sm-4">
+                                <input type="password" class="form-control" id="pwd" placeholder="Enter New Password">
+                            </div>
+                            <div class="col-sm-4"></div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-4" for="pwd2">Repeat Password:</label>
+                            <div class="col-sm-4">
+                                <input type="password" class="form-control" id="pwd2" placeholder="Enter New Password">
+                            </div>
+                            <div class="col-sm-4"></div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-4"></div>
+                            <div class="control-label col-sm-2" >
+                                <button type="submit" class="btn btn-success col-sm-12">Submit</button>
+                            </div>
+                            <div class="control-label col-sm-2">
+                                <button type="reset" class="btn btn-danger col-sm-12">Clear</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-3">
         </div>
     </div>
 </div>

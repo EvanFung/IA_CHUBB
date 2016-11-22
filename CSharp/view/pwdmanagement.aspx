@@ -83,7 +83,7 @@
             </div>
             <div class="row">
                 <ul class="nav navbar-nav navbar-left">
-                    <li><a href="#"></a></li>
+                    <li><a href="#">Web App</a></li>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Request Ticket</a></li>
                     <li><a href="#">VIP - Ticketing Requirement</a></li>
@@ -97,14 +97,36 @@
 
 <div class="container-fluid text-center">
     <div class="row content">
-        <div class="col-sm-12 text-left">
+        <div class="col-sm-12 text-center">
             <h1>Welcome</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <hr>
-            <h3>Test</h3>
-            <p>Lorem ipsum...</p>
+            <form class="form-horizontal">
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="email">Email:</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="email" placeholder="Enter email" />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label class="control-label col-sm-2" for="pwd">Password:</label>
+                  <div class="col-sm-10">
+                    <input type="password" class="form-control" id="pwd" placeholder="Enter password" />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-offset-2 col-sm-10">
+                    <div class="checkbox">
+                      <label><input type="checkbox" /> Remember me</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
         </div>
-    </div>
 </div>
 
 <footer class="container-fluid text-center">
